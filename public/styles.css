@@ -49,6 +49,14 @@ input {
   opacity: 0.7;
 }
 
+.result {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #d8d8d8;
+  background-color: #fdfdfd;
+  margin-bottom: 40px;
+}
+
 footer {
   text-align: center;
   color: #ccc;
