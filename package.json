@@ -1,0 +1,11 @@
+{
+  "name": "convertmymoney",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/HDqbvoekrp4CU1CoTNElr2/ConvertMyMoney",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yan Oliveira",
+  "license": "ISC"
+}
