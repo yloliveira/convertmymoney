@@ -12,5 +12,5 @@ app.get('/', HomeController);
 app.get('/cotacao', CotacaoController);
 
 app.listen(3000, (error) =>
-  error ? console.log('error') : console.log('server is running...')
+  error ? console.log('error') : console.log('server is running o port 3000...')
 );
