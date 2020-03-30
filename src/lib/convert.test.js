@@ -1,0 +1,17 @@
+const { convert, toMoney } = require('./convert');
+
+test('convert cotacao 4 and quantidade 4', () => {
+  expect(convert(4, 4)).toBe(16);
+});
+
+test('convert cotacao 0 and quantidade 4', () => {
+  expect(convert(0, 4)).toBe(0);
+});
+
+test('toMoney convert float parsing number', () => {
+  expect(toMoney(2)).toBe('2.00');
+});
+
+test('toMoney convert float parsing string', () => {
+  expect(toMoney('2')).toBe('2.00');
+});
